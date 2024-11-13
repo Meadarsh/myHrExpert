@@ -1,3 +1,5 @@
+"use client"
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -65,6 +67,7 @@ export default function Home() {
           />
           Learn
         </a>
+        <Button>New</Button>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
